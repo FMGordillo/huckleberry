@@ -9,11 +9,30 @@ body {
   padding: 0;
 }
 
-h2 {
+/* Add styles here! */
+
+h1, h2 {
   margin: 0;
 }
 
-/* Add styles here! */
+h1 {
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+p {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+p:last-child {
+  padding-bottom: 0;
+}
+
+.title {
+  padding-bottom: 48px;
+}
 
 .intro-chunk {
   padding-top: 96px;
